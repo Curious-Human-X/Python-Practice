@@ -1,5 +1,5 @@
 #User Input & Capitalization
-roman_num = input("Enter the Roman Numeral:\n [Use i, v, x, l, c, d, m]\n")
+roman_num = input("\n[Use I, V, X, L, C, D, M]\nEnter the Roman Numeral: ")
 roman = roman_num.upper()
 roman_len = len(roman)
 
@@ -43,6 +43,4 @@ def convertion(roman):
 			
 	return decimal
 
-print(convertion(roman_num))
-
-
+print(f"\nThe Decimal form of {roman} is {convertion(roman)}.\n")
